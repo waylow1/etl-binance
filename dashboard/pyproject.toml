@@ -1,0 +1,9 @@
+[project]
+name = "etl-binance-dashboard"
+version = "0.1.0"
+description = "Dashboard BTC avec Dash + Kafka"
+dependencies = [
+    "dash>=3.2.0",
+    "kafka-python>=2.2.15",
+    "pandas>=2.3.1",
+]

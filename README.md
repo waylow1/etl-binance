@@ -2,7 +2,7 @@
 
 ## Description
 
-Ce projet met en place un pipeline **ETL** basique pour consommer en temps réel les trades du symbole `BTCUSDT` depuis le WebSocket public de Binance, puis publier ces données dans un topic **Kafka**.  
+Ce projet met en place un pipeline **ETL** basique pour consommer en temps réel les trades du symbole `BTCUSDT` depuis le WebSocket public de Binance, puis publier ces données dans un topic **Kafka**.
 L’objectif est de démontrer une architecture data stream complète avec une infra légère.
 
 ---
@@ -22,4 +22,3 @@ L’objectif est de démontrer une architecture data stream complète avec une i
 - **Kafka** : broker de messages distribué, stocke et distribue les événements.
 
 - **Consumer** : front streamlit ou autre service qui consomme les messages de Kafka pour affichage ou analyse.
-

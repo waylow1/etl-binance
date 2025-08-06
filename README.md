@@ -9,8 +9,7 @@ L’objectif est de démontrer une architecture data stream complète avec une i
 
 ## Architecture & Pipeline
 
-```mermaid
-flowchart LR
+```
     BinanceWebSocket --> Provider[Provider (FastAPI + Kafka Producer)]
     Provider --> KafkaCluster[Kafka (Broker + ZooKeeper)]
     KafkaCluster --> Consumer[Consumer (ex: Dashboard, Analyse)]

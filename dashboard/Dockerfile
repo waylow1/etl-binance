@@ -7,4 +7,4 @@ COPY . .
 
 EXPOSE 8050
 
-CMD ["uv", "pip", "run", "python", "src/app.py"]
+CMD ["uv", "pip", "run", "python", "src/main.py"]
